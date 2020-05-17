@@ -17,3 +17,4 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT09 Main Menu Screen
 * BT10 UI Scale Box, Buttons & Mouse
 * BT11 Controller Ready Navigation
+* BT12 Delegating To Components

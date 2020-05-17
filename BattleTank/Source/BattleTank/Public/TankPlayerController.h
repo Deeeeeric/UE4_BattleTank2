@@ -17,4 +17,7 @@ class BATTLETANK_API ATankPlayerController : public APlayerController
 	
 	public:
 	ATank* GetControlledTank() const;
+
+	// 'override' tells us to make sure there is something else in the inheritance tree with this signature
+	virtual void BeginPlay() override; 
 };

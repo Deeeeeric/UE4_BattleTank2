@@ -20,4 +20,6 @@ public:
 
 	// 'override' tells us to make sure there is something else in the inheritance tree with this signature
 	virtual void BeginPlay() override;
+
+	ATank* GetPlayerTank() const;
 };

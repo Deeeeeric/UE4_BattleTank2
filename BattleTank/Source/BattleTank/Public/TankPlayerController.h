@@ -20,4 +20,13 @@ class BATTLETANK_API ATankPlayerController : public APlayerController
 
 	// 'override' tells us to make sure there is something else in the inheritance tree with this signature
 	virtual void BeginPlay() override; 
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	private:
+	
+	// Start the tank moving the barrel so that the shot would hit
+	// where the crosshait intersects
+	void AimTowardsCrosshair();
 };

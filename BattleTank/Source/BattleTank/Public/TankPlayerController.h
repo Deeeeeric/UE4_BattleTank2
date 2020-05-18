@@ -29,4 +29,8 @@ class BATTLETANK_API ATankPlayerController : public APlayerController
 	// Start the tank moving the barrel so that the shot would hit
 	// where the crosshait intersects
 	void AimTowardsCrosshair();
+
+	// Get the location of the landscape the crosshair is aimed at
+	// and consistently update the location if crosshair intersects with landscape
+	bool GetSightRayHitLocation(FVector& HitLocation) const;
 };

@@ -18,6 +18,16 @@ void ATankAIController::BeginPlay()
     }    
 }
 
+// Called every frame
+void ATankAIController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+    if (GetPlayerTank())
+    {
+        GetAIControlledTank()->AimAt(GetPlayerTank()->GetActorLocation());
+    }
+}
+
 ATank* ATankAIController::GetAIControlledTank() const
 {
     // Return Pawn the player is currently possessing

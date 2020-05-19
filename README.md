@@ -25,3 +25,5 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT17 Creating an Out Parameter Method
 * BT18 Finding Screen Pixel Coordinates
 * BT19 Using DeprojectScreenToWorld
+* BT20 Using LineTraceSingleByChannel()
+* BT21 Unify Player and AI Aiming

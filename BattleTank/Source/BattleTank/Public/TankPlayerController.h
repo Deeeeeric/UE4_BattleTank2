@@ -14,23 +14,28 @@ UCLASS()
 class BATTLETANK_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
-	public:
-	ATank* GetControlledTank() const;
+
+public:
+	ATank *GetControlledTank() const;
 
 	// 'override' tells us to make sure there is something else in the inheritance tree with this signature
-	virtual void BeginPlay() override; 
+	virtual void BeginPlay() override;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	private:
-	
+private:
 	// Start the tank moving the barrel so that the shot would hit
 	// where the crosshait intersects
 	void AimTowardsCrosshair();
 
 	// Get the location of the landscape the crosshair is aimed at
 	// and consistently update the location if crosshair intersects with landscape
-	bool GetSightRayHitLocation(FVector& HitLocation) const;
+	bool GetSightRayHitLocation(FVector &HitLocation) const;
+
+	UPROPERTY(EditAnywhere)
+	float CrosshairXLocation = 0.5f;
+
+	UPROPERTY(EditAnywhere)
+	float CrosshairYLocation = 0.3333f;
 };

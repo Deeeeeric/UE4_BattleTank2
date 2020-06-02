@@ -29,3 +29,4 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT21 Unify Player and AI Aiming
 * BT22 Create Default Sub Objects in C++
 * BT23 BlueprintCallable()
+* BT24 SuggestProjectileVelocity()

@@ -2,7 +2,8 @@
 	"files.exclude": {
 		"D:/DW/Documents/GitHub/UE4_BattleTank2/BattleTank/.vscode": true,
 		"D:/DW/Documents/GitHub/UE4_BattleTank2/BattleTank/Content": true,
-		"D:/DW/Documents/GitHub/UE4_BattleTank2/BattleTank/Intermediate": true
-	},
-	"C_Cpp.errorSquiggles": "Disabled"
+		"D:/DW/Documents/GitHub/UE4_BattleTank2/BattleTank/DerivedDataCache": true,
+		"D:/DW/Documents/GitHub/UE4_BattleTank2/BattleTank/Intermediate": true,
+		"D:/DW/Documents/GitHub/UE4_BattleTank2/BattleTank/Saved": true
+	}
 }

@@ -30,3 +30,4 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT22 Create Default Sub Objects in C++
 * BT23 BlueprintCallable()
 * BT24 SuggestProjectileVelocity()
+* BT25 Predict Projectile Landing Point

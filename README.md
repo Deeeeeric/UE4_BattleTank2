@@ -33,3 +33,4 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT25 Predict Projectile Landing Point
 * BT26 Using FRotators In Unreal
 * BT27 Using Forward Declarations
+* BT28 BlueprintSpawnableComponent()

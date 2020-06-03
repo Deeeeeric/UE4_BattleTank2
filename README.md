@@ -35,3 +35,4 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT27 Using Forward Declarations
 * BT28 BlueprintSpawnableComponent()
 * BT29 Review Execution Flow
+* BT30 More Forward Declarations

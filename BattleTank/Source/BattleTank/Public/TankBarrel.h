@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/StaticMeshComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "TankBarrel.generated.h"
 
 /**
@@ -15,7 +16,7 @@ class BATTLETANK_API UTankBarrel : public UStaticMeshComponent
 	GENERATED_BODY()
 	
 public:
-	// -1 is max downward speed, and +1 is max upwards speed
+	// -1 is max downward speed, and +1 is max
 	void Elevate(float RelativeSpeed);
 
 private:

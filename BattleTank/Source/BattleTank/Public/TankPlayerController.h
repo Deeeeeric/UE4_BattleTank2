@@ -3,9 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Tank.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h" // Must be the last include
+
+class ATank;
 
 /**
  * 
@@ -26,7 +27,7 @@ public:
 
 private:
 	// Start the tank moving the barrel so that the shot would hit
-	// where the crosshait intersects
+	// where the crosshair intersects
 	void AimTowardsCrosshair();
 
 	// Get the location of the landscape the crosshair is aimed at

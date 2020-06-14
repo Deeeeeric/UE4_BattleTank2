@@ -18,10 +18,6 @@ public:
 private:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	
-	ATank *GetAIControlledTank() const;
-	
-	ATank *GetPlayerTank() const;
 
 	// 'override' tells us to make sure there is something else in the inheritance tree with this signature
 	virtual void BeginPlay() override;

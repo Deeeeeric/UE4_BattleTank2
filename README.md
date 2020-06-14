@@ -42,3 +42,4 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT34 Setting up Projectiles
 * BT35 Using Spawn<>() Actor to Spawn
 * BT36 Projectile Moving Components
+* BT37 Making AI Tanks Fire

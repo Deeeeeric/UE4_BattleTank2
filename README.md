@@ -39,3 +39,4 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT31 Using Clamps() to Limit Values
 * BT32 Turret Rotation
 * BT33 Turret Rotation Part 2
+* BT34 Setting up Projectiles

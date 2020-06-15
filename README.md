@@ -45,3 +45,4 @@ Part of the Unreal Course in Udemy by GameDev.tv. These are the files of the cou
 * BT37 Making AI Tanks Fire
 * BT38 EditAnywhere vs EditDefaultsOnly
 * BT39 Adding a Quit Button on UI
+* BT40 Setup Track Throttles
